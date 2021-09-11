@@ -1,0 +1,6 @@
+C:\Users\kievk\source\repos\LoginHSC\CapaModelo\bin\Debug\CapaModelo.dll
+C:\Users\kievk\source\repos\LoginHSC\CapaModelo\bin\Debug\CapaModelo.pdb
+C:\Users\kievk\source\repos\LoginHSC\CapaModelo\obj\Debug\CapaModelo.csproj.AssemblyReference.cache
+C:\Users\kievk\source\repos\LoginHSC\CapaModelo\obj\Debug\CapaModelo.csproj.CoreCompileInputs.cache
+C:\Users\kievk\source\repos\LoginHSC\CapaModelo\obj\Debug\CapaModelo.dll
+C:\Users\kievk\source\repos\LoginHSC\CapaModelo\obj\Debug\CapaModelo.pdb
