@@ -1,0 +1,4 @@
+G:\Git\HSC\2DA\Grupo 5\Danny Saldaña Usuarios\CapaVista\obj\Debug\CapaVista.csproj.AssemblyReference.cache
+G:\Git\HSC\2DA\Grupo 5\Danny Saldaña Usuarios\CapaVista\obj\Debug\CapaVista.fmConsulta.resources
+G:\Git\HSC\2DA\Grupo 5\Danny Saldaña Usuarios\CapaVista\obj\Debug\CapaVista.csproj.GenerateResource.cache
+G:\Git\HSC\2DA\Grupo 5\Danny Saldaña Usuarios\CapaVista\obj\Debug\CapaVista.csproj.CoreCompileInputs.cache
