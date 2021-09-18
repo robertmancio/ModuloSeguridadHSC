@@ -55,47 +55,52 @@ namespace CapaVista
             // 
             // button3
             // 
+            this.button3.BackColor = System.Drawing.Color.Transparent;
+            this.button3.BackgroundImage = global::CapaVista.Properties.Resources.login_50px;
+            this.button3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.button3.ForeColor = System.Drawing.Color.Transparent;
-            this.button3.Image = global::CapaVista.Properties.Resources.login_50px;
-            this.button3.Location = new System.Drawing.Point(321, 490);
+            this.button3.Location = new System.Drawing.Point(362, 510);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(75, 54);
+            this.button3.Size = new System.Drawing.Size(41, 40);
             this.button3.TabIndex = 2;
             this.button3.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.button3.UseVisualStyleBackColor = true;
+            this.button3.UseVisualStyleBackColor = false;
             // 
             // button4
             // 
+            this.button4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.button4.FlatAppearance.BorderSize = 0;
             this.button4.ForeColor = System.Drawing.Color.Transparent;
             this.button4.Image = global::CapaVista.Properties.Resources.minimize_window_50px;
-            this.button4.Location = new System.Drawing.Point(345, 3);
+            this.button4.Location = new System.Drawing.Point(378, 3);
             this.button4.Name = "button4";
             this.button4.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.button4.Size = new System.Drawing.Size(58, 52);
+            this.button4.Size = new System.Drawing.Size(41, 38);
             this.button4.TabIndex = 1;
             this.button4.UseVisualStyleBackColor = true;
             // 
             // button2
             // 
+            this.button2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.button2.ForeColor = System.Drawing.Color.Transparent;
             this.button2.Image = global::CapaVista.Properties.Resources.close_window_50px;
-            this.button2.Location = new System.Drawing.Point(409, 3);
+            this.button2.Location = new System.Drawing.Point(425, 3);
             this.button2.Name = "button2";
             this.button2.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.button2.Size = new System.Drawing.Size(58, 52);
+            this.button2.Size = new System.Drawing.Size(42, 38);
             this.button2.TabIndex = 1;
             this.button2.UseVisualStyleBackColor = true;
             // 
             // button1
             // 
+            this.button1.BackColor = System.Drawing.Color.Transparent;
             this.button1.ForeColor = System.Drawing.Color.Transparent;
             this.button1.Image = global::CapaVista.Properties.Resources.ask_question_32px;
             this.button1.Location = new System.Drawing.Point(3, 3);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(40, 38);
             this.button1.TabIndex = 1;
-            this.button1.UseVisualStyleBackColor = true;
+            this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // textBox2
