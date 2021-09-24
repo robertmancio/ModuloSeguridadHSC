@@ -1,0 +1,9 @@
+G:\Git\HSC\2DA\SeguridadHSC\CapaControlador\bin\Debug\CapaControlador.dll
+G:\Git\HSC\2DA\SeguridadHSC\CapaControlador\bin\Debug\CapaControlador.pdb
+G:\Git\HSC\2DA\SeguridadHSC\CapaControlador\obj\Debug\CapaControlador.csproj.AssemblyReference.cache
+G:\Git\HSC\2DA\SeguridadHSC\CapaControlador\obj\Debug\CapaControlador.csproj.CoreCompileInputs.cache
+G:\Git\HSC\2DA\SeguridadHSC\CapaControlador\obj\Debug\CapaControlador.dll
+G:\Git\HSC\2DA\SeguridadHSC\CapaControlador\obj\Debug\CapaControlador.pdb
+G:\Git\HSC\2DA\SeguridadHSC\CapaControlador\bin\Debug\CapaModelo.dll
+G:\Git\HSC\2DA\SeguridadHSC\CapaControlador\bin\Debug\CapaModelo.pdb
+G:\Git\HSC\2DA\SeguridadHSC\CapaControlador\obj\Debug\CapaControlador.csproj.CopyComplete

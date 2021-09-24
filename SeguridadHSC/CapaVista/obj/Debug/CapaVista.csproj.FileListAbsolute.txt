@@ -1,0 +1,15 @@
+G:\Git\HSC\2DA\SeguridadHSC\CapaVista\obj\Debug\CapaVista.csproj.AssemblyReference.cache
+G:\Git\HSC\2DA\SeguridadHSC\CapaVista\obj\Debug\CapaVista.frmLoginHSC.resources
+G:\Git\HSC\2DA\SeguridadHSC\CapaVista\obj\Debug\CapaVista.frmMIDSeguridad.resources
+G:\Git\HSC\2DA\SeguridadHSC\CapaVista\obj\Debug\CapaVista.Properties.Resources.resources
+G:\Git\HSC\2DA\SeguridadHSC\CapaVista\obj\Debug\CapaVista.csproj.GenerateResource.cache
+G:\Git\HSC\2DA\SeguridadHSC\CapaVista\obj\Debug\CapaVista.csproj.CoreCompileInputs.cache
+G:\Git\HSC\2DA\SeguridadHSC\CapaVista\bin\Debug\CapaVista.dll
+G:\Git\HSC\2DA\SeguridadHSC\CapaVista\bin\Debug\CapaVista.pdb
+G:\Git\HSC\2DA\SeguridadHSC\CapaVista\bin\Debug\CapaControlador.dll
+G:\Git\HSC\2DA\SeguridadHSC\CapaVista\bin\Debug\CapaModelo.dll
+G:\Git\HSC\2DA\SeguridadHSC\CapaVista\bin\Debug\CapaControlador.pdb
+G:\Git\HSC\2DA\SeguridadHSC\CapaVista\bin\Debug\CapaModelo.pdb
+G:\Git\HSC\2DA\SeguridadHSC\CapaVista\obj\Debug\CapaVista.csproj.CopyComplete
+G:\Git\HSC\2DA\SeguridadHSC\CapaVista\obj\Debug\CapaVista.dll
+G:\Git\HSC\2DA\SeguridadHSC\CapaVista\obj\Debug\CapaVista.pdb

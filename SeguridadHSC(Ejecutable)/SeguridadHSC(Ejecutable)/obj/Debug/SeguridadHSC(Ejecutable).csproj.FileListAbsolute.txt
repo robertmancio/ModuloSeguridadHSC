@@ -1,0 +1,16 @@
+G:\Git\HSC\2DA\SeguridadHSC(Ejecutable)\SeguridadHSC(Ejecutable)\bin\Debug\SeguridadHSC(Ejecutable).exe.config
+G:\Git\HSC\2DA\SeguridadHSC(Ejecutable)\SeguridadHSC(Ejecutable)\bin\Debug\SeguridadHSC(Ejecutable).exe
+G:\Git\HSC\2DA\SeguridadHSC(Ejecutable)\SeguridadHSC(Ejecutable)\bin\Debug\SeguridadHSC(Ejecutable).pdb
+G:\Git\HSC\2DA\SeguridadHSC(Ejecutable)\SeguridadHSC(Ejecutable)\bin\Debug\CapaVista.dll
+G:\Git\HSC\2DA\SeguridadHSC(Ejecutable)\SeguridadHSC(Ejecutable)\bin\Debug\CapaControlador.dll
+G:\Git\HSC\2DA\SeguridadHSC(Ejecutable)\SeguridadHSC(Ejecutable)\bin\Debug\CapaModelo.dll
+G:\Git\HSC\2DA\SeguridadHSC(Ejecutable)\SeguridadHSC(Ejecutable)\bin\Debug\CapaVista.pdb
+G:\Git\HSC\2DA\SeguridadHSC(Ejecutable)\SeguridadHSC(Ejecutable)\bin\Debug\CapaControlador.pdb
+G:\Git\HSC\2DA\SeguridadHSC(Ejecutable)\SeguridadHSC(Ejecutable)\bin\Debug\CapaModelo.pdb
+G:\Git\HSC\2DA\SeguridadHSC(Ejecutable)\SeguridadHSC(Ejecutable)\obj\Debug\SeguridadHSC(Ejecutable).csproj.AssemblyReference.cache
+G:\Git\HSC\2DA\SeguridadHSC(Ejecutable)\SeguridadHSC(Ejecutable)\obj\Debug\SeguridadHSC_Ejecutable_.Properties.Resources.resources
+G:\Git\HSC\2DA\SeguridadHSC(Ejecutable)\SeguridadHSC(Ejecutable)\obj\Debug\SeguridadHSC(Ejecutable).csproj.GenerateResource.cache
+G:\Git\HSC\2DA\SeguridadHSC(Ejecutable)\SeguridadHSC(Ejecutable)\obj\Debug\SeguridadHSC(Ejecutable).csproj.CoreCompileInputs.cache
+G:\Git\HSC\2DA\SeguridadHSC(Ejecutable)\SeguridadHSC(Ejecutable)\obj\Debug\SeguridadHSC(Ejecutable).csproj.CopyComplete
+G:\Git\HSC\2DA\SeguridadHSC(Ejecutable)\SeguridadHSC(Ejecutable)\obj\Debug\SeguridadHSC(Ejecutable).exe
+G:\Git\HSC\2DA\SeguridadHSC(Ejecutable)\SeguridadHSC(Ejecutable)\obj\Debug\SeguridadHSC(Ejecutable).pdb

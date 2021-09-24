@@ -1,0 +1,6 @@
+G:\Git\HSC\2DA\SeguridadHSC\CapaModelo\bin\Debug\CapaModelo.dll
+G:\Git\HSC\2DA\SeguridadHSC\CapaModelo\bin\Debug\CapaModelo.pdb
+G:\Git\HSC\2DA\SeguridadHSC\CapaModelo\obj\Debug\CapaModelo.csproj.AssemblyReference.cache
+G:\Git\HSC\2DA\SeguridadHSC\CapaModelo\obj\Debug\CapaModelo.csproj.CoreCompileInputs.cache
+G:\Git\HSC\2DA\SeguridadHSC\CapaModelo\obj\Debug\CapaModelo.dll
+G:\Git\HSC\2DA\SeguridadHSC\CapaModelo\obj\Debug\CapaModelo.pdb
