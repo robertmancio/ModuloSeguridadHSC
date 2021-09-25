@@ -48,7 +48,7 @@ namespace CapaVista
         private void frmMantenimientoAplicacion_Load(object sender, EventArgs e)
         {
             // TODO: esta línea de código carga datos en la tabla 'dataSet1.aplicacion' Puede moverla o quitarla según sea necesario.
-            this.aplicacionTableAdapter1.Fill(this.dataSet1.aplicacion);
+            //this.aplicacionTableAdapter1.Fill(this.dataSet1.aplicacion);
             // TODO: esta línea de código carga datos en la tabla 'componenteseguridadDataSet.aplicacion' Puede moverla o quitarla según sea necesario.
             try
             {
