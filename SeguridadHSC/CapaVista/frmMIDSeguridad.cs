@@ -39,7 +39,10 @@ namespace CapaVista
 
         private void btnAplicacion_Click(object sender, EventArgs e)
         {
+            frmMantenimientoAplicacion form3 = new frmMantenimientoAplicacion();
+            form3.MdiParent = this.MdiParent;
 
+            form3.Show();
         }
 
         private void btnModulos_Click(object sender, EventArgs e)
