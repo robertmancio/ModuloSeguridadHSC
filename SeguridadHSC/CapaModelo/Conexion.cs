@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace CapaModelo
 {
-     class Conexion
+      class Conexion
     {
         public OdbcConnection conexion()
         {

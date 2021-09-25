@@ -18,5 +18,29 @@ namespace CapaControlador
 
             return validar;
         }
+
+        //frmMantenimientoAplicacion
+        public void insertarAplicacion(string Id, string Nombre, int Estado, string Ruta)
+        {
+            sn.funInsertar(Id, Nombre, Estado, Ruta);
+        }
+
+        public void modificarAplicacion(string Id, string Nombre, int Estado, string Ruta)
+        {
+            sn.funModificar(Id, Nombre, Estado, Ruta);
+
+
+        }
+
+        public (string, int, string) buscarAplicacion(string id, string nombre, int estado, string ruta)
+        {
+            sn.funBuscar(id, nombre, estado, ruta);
+            return (nombre, estado, ruta);
+        }
+
+        public void eliminarAplicacion(string id)
+        {
+            sn.funEliminar(id);
+        }
     }
 }

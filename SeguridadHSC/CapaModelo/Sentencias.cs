@@ -10,9 +10,10 @@ namespace CapaModelo
     public class Sentencias
     {
 
-        //frmLogin
+      
         Conexion cn = new Conexion();
         OdbcCommand Comm;
+        //frmLogin
         public int funIniciarSesion(string Usuario, string Contraseña, int validar)
         {
             try
@@ -46,6 +47,75 @@ namespace CapaModelo
 
         }
 
+
+        //frmMantenimientoAplicacion
+        public void funInsertar(string Id, string Nombre, int estado, string ruta)
+        {
+
+            string cadena = "INSERT INTO" +
+            " `componenteseguridad`.`Aplicacion` VALUES (" + "'" + Id + "', '" + Nombre + "' , " + estado + ", '" + ruta + "');";
+
+            OdbcCommand consulta = new OdbcCommand(cadena, cn.conexion());
+            consulta.ExecuteNonQuery();
+
+
+        }
+
+
+        public void funModificar(string Id, string Nombre, int estado, string ruta)
+        {
+
+            string cadena = "UPDATE componenteseguridad.aplicacion set pkId ='" + Id
+              + "',nombre ='" + Nombre + "',estado = " + estado + ", idReporteAsociado = '" + ruta + "'  where pkId= '" + Id + "';";
+
+
+            OdbcCommand consulta = new OdbcCommand(cadena, cn.conexion());
+            consulta.ExecuteNonQuery();
+
+
+
+
+        }
+
+        public void funEliminar(string Id)
+        {
+
+            string cadena = "delete from componenteseguridad.aplicacion where pkId ='" + Id + "';";
+
+
+            OdbcCommand consulta = new OdbcCommand(cadena, cn.conexion());
+            consulta.ExecuteNonQuery();
+
+        }
+
+
+
+
+        public (string, int) funBuscar(string id, string nombre, int estado, string ruta)
+        {
+
+
+            string Query = "select * from `componenteseguridad`.`Aplicacion` where pkId='" + id + "';";
+
+            OdbcCommand consulta = new OdbcCommand(Query, cn.conexion());
+            consulta.ExecuteNonQuery();
+
+            OdbcDataReader busqueda;
+            busqueda = consulta.ExecuteReader();
+
+            if (busqueda.Read())
+            {
+
+                nombre = busqueda["nombre"].ToString();
+                estado = int.Parse(busqueda["estado"].ToString());
+
+            }
+
+
+            return (nombre, estado);
+
+
+        }
 
     }
 }
