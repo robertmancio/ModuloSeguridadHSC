@@ -42,3 +42,17 @@ C:\Users\SEBAS\Desktop\ProyectoHCS\SeguridadHSC\CapaVista\bin\Debug\CapaControla
 C:\Users\SEBAS\Desktop\ProyectoHCS\SeguridadHSC\CapaVista\bin\Debug\MySql.Data.xml
 C:\Users\SEBAS\Desktop\ProyectoHCS\SeguridadHSC\CapaVista\bin\Debug\CapaModelo.pdb
 C:\Users\SEBAS\Desktop\ProyectoHCS\SeguridadHSC\CapaVista\obj\Debug\CapaVista.csproj.CopyComplete
+G:\Git\HSC\2DA\SeguridadHSC\CapaVista\bin\Debug\CapaVista.dll.config
+G:\Git\HSC\2DA\SeguridadHSC\CapaVista\bin\Debug\BouncyCastle.Crypto.dll
+G:\Git\HSC\2DA\SeguridadHSC\CapaVista\bin\Debug\Google.Protobuf.dll
+G:\Git\HSC\2DA\SeguridadHSC\CapaVista\bin\Debug\K4os.Compression.LZ4.Streams.dll
+G:\Git\HSC\2DA\SeguridadHSC\CapaVista\bin\Debug\Ubiety.Dns.Core.dll
+G:\Git\HSC\2DA\SeguridadHSC\CapaVista\bin\Debug\Zstandard.Net.dll
+G:\Git\HSC\2DA\SeguridadHSC\CapaVista\bin\Debug\System.Memory.dll
+G:\Git\HSC\2DA\SeguridadHSC\CapaVista\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+G:\Git\HSC\2DA\SeguridadHSC\CapaVista\bin\Debug\K4os.Compression.LZ4.dll
+G:\Git\HSC\2DA\SeguridadHSC\CapaVista\bin\Debug\K4os.Hash.xxHash.dll
+G:\Git\HSC\2DA\SeguridadHSC\CapaVista\bin\Debug\System.Buffers.dll
+G:\Git\HSC\2DA\SeguridadHSC\CapaVista\bin\Debug\System.Numerics.Vectors.dll
+G:\Git\HSC\2DA\SeguridadHSC\CapaVista\bin\Debug\MySql.Data.xml
+G:\Git\HSC\2DA\SeguridadHSC\CapaVista\obj\Debug\CapaVista.frmMantenimientoAplicacion.resources

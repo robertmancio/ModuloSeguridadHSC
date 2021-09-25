@@ -44,3 +44,17 @@ C:\Users\SEBAS\Desktop\ProyectoHCS\SeguridadHSC(Ejecutable)\SeguridadHSC(Ejecuta
 C:\Users\SEBAS\Desktop\ProyectoHCS\SeguridadHSC(Ejecutable)\SeguridadHSC(Ejecutable)\bin\Debug\CapaVista.dll.config
 C:\Users\SEBAS\Desktop\ProyectoHCS\SeguridadHSC(Ejecutable)\SeguridadHSC(Ejecutable)\bin\Debug\MySql.Data.xml
 C:\Users\SEBAS\Desktop\ProyectoHCS\SeguridadHSC(Ejecutable)\SeguridadHSC(Ejecutable)\obj\Debug\SeguridadHSC(Ejecutable).exe.config
+G:\Git\HSC\2DA\SeguridadHSC(Ejecutable)\SeguridadHSC(Ejecutable)\bin\Debug\MySql.Data.dll
+G:\Git\HSC\2DA\SeguridadHSC(Ejecutable)\SeguridadHSC(Ejecutable)\bin\Debug\Google.Protobuf.dll
+G:\Git\HSC\2DA\SeguridadHSC(Ejecutable)\SeguridadHSC(Ejecutable)\bin\Debug\Zstandard.Net.dll
+G:\Git\HSC\2DA\SeguridadHSC(Ejecutable)\SeguridadHSC(Ejecutable)\bin\Debug\K4os.Compression.LZ4.Streams.dll
+G:\Git\HSC\2DA\SeguridadHSC(Ejecutable)\SeguridadHSC(Ejecutable)\bin\Debug\BouncyCastle.Crypto.dll
+G:\Git\HSC\2DA\SeguridadHSC(Ejecutable)\SeguridadHSC(Ejecutable)\bin\Debug\Ubiety.Dns.Core.dll
+G:\Git\HSC\2DA\SeguridadHSC(Ejecutable)\SeguridadHSC(Ejecutable)\bin\Debug\System.Memory.dll
+G:\Git\HSC\2DA\SeguridadHSC(Ejecutable)\SeguridadHSC(Ejecutable)\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+G:\Git\HSC\2DA\SeguridadHSC(Ejecutable)\SeguridadHSC(Ejecutable)\bin\Debug\System.Buffers.dll
+G:\Git\HSC\2DA\SeguridadHSC(Ejecutable)\SeguridadHSC(Ejecutable)\bin\Debug\K4os.Compression.LZ4.dll
+G:\Git\HSC\2DA\SeguridadHSC(Ejecutable)\SeguridadHSC(Ejecutable)\bin\Debug\K4os.Hash.xxHash.dll
+G:\Git\HSC\2DA\SeguridadHSC(Ejecutable)\SeguridadHSC(Ejecutable)\bin\Debug\CapaVista.dll.config
+G:\Git\HSC\2DA\SeguridadHSC(Ejecutable)\SeguridadHSC(Ejecutable)\bin\Debug\MySql.Data.xml
+G:\Git\HSC\2DA\SeguridadHSC(Ejecutable)\SeguridadHSC(Ejecutable)\bin\Debug\System.Numerics.Vectors.dll

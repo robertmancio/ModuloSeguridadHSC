@@ -42,17 +42,17 @@
             this.btnEliminar = new System.Windows.Forms.Button();
             this.btnLimpiar = new System.Windows.Forms.Button();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.dataSet1 = new CapaVista.DataSet1();
+            this.aplicacionBindingSource1 = new System.Windows.Forms.BindingSource(this.components);
+            this.aplicacionTableAdapter1 = new CapaVista.DataSet1TableAdapters.aplicacionTableAdapter();
             this.pkIdDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.nombreDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.estadoDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.idReporteAsociadoDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.aplicacionBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.componenteseguridadDataSet = new CapaVista.componenteseguridadDataSet();
-            this.aplicacionTableAdapter = new CapaVista.componenteseguridadDataSetTableAdapters.aplicacionTableAdapter();
             this.gbxEstado.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.aplicacionBindingSource)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.componenteseguridadDataSet)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataSet1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.aplicacionBindingSource1)).BeginInit();
             this.SuspendLayout();
             // 
             // textBox3
@@ -184,12 +184,26 @@
             this.nombreDataGridViewTextBoxColumn,
             this.estadoDataGridViewTextBoxColumn,
             this.idReporteAsociadoDataGridViewTextBoxColumn});
-            this.dataGridView1.DataSource = this.aplicacionBindingSource;
+            this.dataGridView1.DataSource = this.aplicacionBindingSource1;
             this.dataGridView1.Location = new System.Drawing.Point(50, 294);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.Size = new System.Drawing.Size(525, 150);
             this.dataGridView1.TabIndex = 27;
             this.dataGridView1.RowHeaderMouseClick += new System.Windows.Forms.DataGridViewCellMouseEventHandler(this.dataGridView1_RowHeaderMouseClick_1);
+            // 
+            // dataSet1
+            // 
+            this.dataSet1.DataSetName = "DataSet1";
+            this.dataSet1.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            // 
+            // aplicacionBindingSource1
+            // 
+            this.aplicacionBindingSource1.DataMember = "aplicacion";
+            this.aplicacionBindingSource1.DataSource = this.dataSet1;
+            // 
+            // aplicacionTableAdapter1
+            // 
+            this.aplicacionTableAdapter1.ClearBeforeFill = true;
             // 
             // pkIdDataGridViewTextBoxColumn
             // 
@@ -215,20 +229,6 @@
             this.idReporteAsociadoDataGridViewTextBoxColumn.HeaderText = "idReporteAsociado";
             this.idReporteAsociadoDataGridViewTextBoxColumn.Name = "idReporteAsociadoDataGridViewTextBoxColumn";
             // 
-            // aplicacionBindingSource
-            // 
-            this.aplicacionBindingSource.DataMember = "aplicacion";
-            this.aplicacionBindingSource.DataSource = this.componenteseguridadDataSet;
-            // 
-            // componenteseguridadDataSet
-            // 
-            this.componenteseguridadDataSet.DataSetName = "componenteseguridadDataSet";
-            this.componenteseguridadDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
-            // 
-            // aplicacionTableAdapter
-            // 
-            this.aplicacionTableAdapter.ClearBeforeFill = true;
-            // 
             // frmMantenimientoAplicacion
             // 
             this.AcceptButton = this.btnInsertar;
@@ -253,8 +253,8 @@
             this.gbxEstado.ResumeLayout(false);
             this.gbxEstado.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.aplicacionBindingSource)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.componenteseguridadDataSet)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataSet1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.aplicacionBindingSource1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -275,9 +275,9 @@
         private System.Windows.Forms.Button btnEliminar;
         private System.Windows.Forms.Button btnLimpiar;
         private System.Windows.Forms.DataGridView dataGridView1;
-        private componenteseguridadDataSet componenteseguridadDataSet;
-        private System.Windows.Forms.BindingSource aplicacionBindingSource;
-        private componenteseguridadDataSetTableAdapters.aplicacionTableAdapter aplicacionTableAdapter;
+        private DataSet1 dataSet1;
+        private System.Windows.Forms.BindingSource aplicacionBindingSource1;
+        private DataSet1TableAdapters.aplicacionTableAdapter aplicacionTableAdapter1;
         private System.Windows.Forms.DataGridViewTextBoxColumn pkIdDataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn nombreDataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn estadoDataGridViewTextBoxColumn;
