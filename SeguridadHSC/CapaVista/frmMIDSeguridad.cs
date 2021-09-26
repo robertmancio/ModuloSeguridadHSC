@@ -52,7 +52,10 @@ namespace CapaVista
 
         private void btnPerfiles_Click(object sender, EventArgs e)
         {
+            frmMantenimientoPerfil form3 = new frmMantenimientoPerfil();
+            form3.MdiParent = this.MdiParent;
 
+            form3.Show();
         }
 
         private void btnAsignacionDeAplicacionAUsuarios_Click(object sender, EventArgs e)

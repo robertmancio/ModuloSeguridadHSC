@@ -170,8 +170,34 @@ namespace CapaControlador
             string sql = "SELECT nombre FROM componenteseguridad.usuario;";
             return sn.llenarcbxUsuario(sql);
         }
-     
-       
+
+
+        //Mantenimiento Perfil
+
+
+        public void insertarPerfil(string Id, string Nombre, int Estado)
+        {
+            sn.funInsertar(Id, Nombre, Estado);
+        }
+
+        public void modificarPerfil(string Id, string Nombre, int Estado)
+        {
+            sn.funModificar(Id, Nombre, Estado);
+
+
+        }
+
+        public (string, int) buscarPerfil(string id, string nombre, int estado, string ruta)
+        {
+            sn.funBuscar(id, nombre, estado);
+            return (nombre, estado);
+        }
+
+        public void eliminarPerfil(string id)
+        {
+            sn.funEliminarPerfil(id);
+        }
+
 
     }
 }

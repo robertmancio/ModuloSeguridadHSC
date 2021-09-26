@@ -285,7 +285,77 @@ namespace CapaModelo
                 return null;
             }
         }
-        
+
+
+        //mantenimiento Perfil
+
+        public void funInsertar(string Id, string Nombre, int estado)
+        {
+
+            string cadena = "INSERT INTO" +
+            " `componenteseguridad`.`Perfil` VALUES (" + "'" + Id + "', '" + Nombre + "' , " + estado + ");";
+
+            OdbcCommand consulta = new OdbcCommand(cadena, cn.conexion());
+            consulta.ExecuteNonQuery();
+
+
+        }
+
+
+        public void funModificar(string Id, string Nombre, int estado)
+        {
+
+            string cadena = "UPDATE componenteseguridad.perfil set pkId ='" + Id
+              + "',nombre ='" + Nombre + "',estado = " + estado + "  where pkId= '" + Id + "';";
+
+
+            OdbcCommand consulta = new OdbcCommand(cadena, cn.conexion());
+            consulta.ExecuteNonQuery();
+
+
+
+
+        }
+
+        public void funEliminarPerfil(string Id)
+        {
+
+            string cadena = "delete from componenteseguridad.perfil where pkId ='" + Id + "';";
+
+
+            OdbcCommand consulta = new OdbcCommand(cadena, cn.conexion());
+            consulta.ExecuteNonQuery();
+
+        }
+
+
+
+
+        public (string, int) funBuscar(string id, string nombre, int estado)
+        {
+
+
+            string Query = "select * from `componenteseguridad`.`Perfil` where pkId='" + id + "';";
+
+            OdbcCommand consulta = new OdbcCommand(Query, cn.conexion());
+            consulta.ExecuteNonQuery();
+
+            OdbcDataReader busqueda;
+            busqueda = consulta.ExecuteReader();
+
+            if (busqueda.Read())
+            {
+
+                nombre = busqueda["nombre"].ToString();
+                estado = int.Parse(busqueda["estado"].ToString());
+
+            }
+
+
+            return (nombre, estado);
+
+
+        }
 
     }
 }
