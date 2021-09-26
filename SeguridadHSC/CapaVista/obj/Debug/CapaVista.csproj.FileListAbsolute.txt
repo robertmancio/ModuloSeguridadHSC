@@ -56,3 +56,6 @@ G:\Git\HSC\2DA\SeguridadHSC\CapaVista\bin\Debug\System.Buffers.dll
 G:\Git\HSC\2DA\SeguridadHSC\CapaVista\bin\Debug\System.Numerics.Vectors.dll
 G:\Git\HSC\2DA\SeguridadHSC\CapaVista\bin\Debug\MySql.Data.xml
 G:\Git\HSC\2DA\SeguridadHSC\CapaVista\obj\Debug\CapaVista.frmMantenimientoAplicacion.resources
+G:\Git\HSC\2DA\SeguridadHSC\CapaVista\obj\Debug\CapaVista.frmRecuperarContraseña.resources
+G:\Git\HSC\2DA\SeguridadHSC\CapaVista\obj\Debug\CapaVista.frmAplicaciones.resources
+G:\Git\HSC\2DA\SeguridadHSC\CapaVista\obj\Debug\CapaVista.frmPerfiles.resources

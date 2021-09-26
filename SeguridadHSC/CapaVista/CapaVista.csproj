@@ -66,6 +66,12 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>DataSet1.xsd</DependentUpon>
     </Compile>
+    <Compile Include="frmAplicaciones.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAplicaciones.designer.cs">
+      <DependentUpon>frmAplicaciones.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmLoginHSC.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -84,8 +90,25 @@
     <Compile Include="frmMIDSeguridad.Designer.cs">
       <DependentUpon>frmMIDSeguridad.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmPerfiles.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPerfiles.designer.cs">
+      <DependentUpon>frmPerfiles.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmRecuperarContraseña.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmRecuperarContraseña.Designer.cs">
+      <DependentUpon>frmRecuperarContraseña.cs</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Properties\Resources.Designer.cs" />
+    <Compile Include="Properties\Resources1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\Settings.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
@@ -93,6 +116,9 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="frmAplicaciones.resx">
+      <DependentUpon>frmAplicaciones.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmLoginHSC.resx">
       <DependentUpon>frmLoginHSC.cs</DependentUpon>
     </EmbeddedResource>
@@ -101,6 +127,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frmMIDSeguridad.resx">
       <DependentUpon>frmMIDSeguridad.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPerfiles.resx">
+      <DependentUpon>frmPerfiles.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmRecuperarContraseña.resx">
+      <DependentUpon>frmRecuperarContraseña.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

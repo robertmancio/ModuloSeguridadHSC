@@ -43,6 +43,7 @@ namespace CapaVista
             this.btnAsignacionDeAplicacionesAPerfiles = new System.Windows.Forms.ToolStripMenuItem();
             this.btnCambioContraseña = new System.Windows.Forms.ToolStripMenuItem();
             this.btnBitacora = new System.Windows.Forms.ToolStripMenuItem();
+            this.btnAsiginaciónDePerfilesAUsuarios = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -73,7 +74,7 @@ namespace CapaVista
             // btnCerrarSesion
             // 
             this.btnCerrarSesion.Name = "btnCerrarSesion";
-            this.btnCerrarSesion.Size = new System.Drawing.Size(180, 24);
+            this.btnCerrarSesion.Size = new System.Drawing.Size(175, 24);
             this.btnCerrarSesion.Text = "Cerrar Sesión";
             this.btnCerrarSesion.Click += new System.EventHandler(this.btnCerrarSesion_Click);
             // 
@@ -96,28 +97,28 @@ namespace CapaVista
             // btnUsuarios
             // 
             this.btnUsuarios.Name = "btnUsuarios";
-            this.btnUsuarios.Size = new System.Drawing.Size(180, 24);
+            this.btnUsuarios.Size = new System.Drawing.Size(167, 24);
             this.btnUsuarios.Text = "Usuarios";
             this.btnUsuarios.Click += new System.EventHandler(this.btnUsuarios_Click);
             // 
             // btnAplicacion
             // 
             this.btnAplicacion.Name = "btnAplicacion";
-            this.btnAplicacion.Size = new System.Drawing.Size(180, 24);
+            this.btnAplicacion.Size = new System.Drawing.Size(167, 24);
             this.btnAplicacion.Text = "Aplicaciones";
             this.btnAplicacion.Click += new System.EventHandler(this.btnAplicacion_Click);
             // 
             // btnModulos
             // 
             this.btnModulos.Name = "btnModulos";
-            this.btnModulos.Size = new System.Drawing.Size(180, 24);
+            this.btnModulos.Size = new System.Drawing.Size(167, 24);
             this.btnModulos.Text = "Módulos";
             this.btnModulos.Click += new System.EventHandler(this.btnModulos_Click);
             // 
             // btnPerfiles
             // 
             this.btnPerfiles.Name = "btnPerfiles";
-            this.btnPerfiles.Size = new System.Drawing.Size(180, 24);
+            this.btnPerfiles.Size = new System.Drawing.Size(167, 24);
             this.btnPerfiles.Text = "Perfiles";
             this.btnPerfiles.Click += new System.EventHandler(this.btnPerfiles_Click);
             // 
@@ -125,7 +126,8 @@ namespace CapaVista
             // 
             this.asignacionesToolStripMenuItem1.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.btnAsignacionDeAplicacionAUsuarios,
-            this.btnAsignacionDeAplicacionesAPerfiles});
+            this.btnAsignacionDeAplicacionesAPerfiles,
+            this.btnAsiginaciónDePerfilesAUsuarios});
             this.asignacionesToolStripMenuItem1.Name = "asignacionesToolStripMenuItem1";
             this.asignacionesToolStripMenuItem1.Size = new System.Drawing.Size(116, 24);
             this.asignacionesToolStripMenuItem1.Text = "Asignaciones";
@@ -157,6 +159,13 @@ namespace CapaVista
             this.btnBitacora.Size = new System.Drawing.Size(80, 24);
             this.btnBitacora.Text = "Bitacora";
             this.btnBitacora.Click += new System.EventHandler(this.btnBitacora_Click);
+            // 
+            // btnAsiginaciónDePerfilesAUsuarios
+            // 
+            this.btnAsiginaciónDePerfilesAUsuarios.Name = "btnAsiginaciónDePerfilesAUsuarios";
+            this.btnAsiginaciónDePerfilesAUsuarios.Size = new System.Drawing.Size(340, 24);
+            this.btnAsiginaciónDePerfilesAUsuarios.Text = "Asiginación de Perfiles a Usuarios";
+            this.btnAsiginaciónDePerfilesAUsuarios.Click += new System.EventHandler(this.btnAsiginaciónDePerfilesAUsuarios_Click);
             // 
             // frmMIDSeguridad
             // 
@@ -190,5 +199,6 @@ namespace CapaVista
         private System.Windows.Forms.ToolStripMenuItem btnAsignacionDeAplicacionesAPerfiles;
         private System.Windows.Forms.ToolStripMenuItem btnCambioContraseña;
         private System.Windows.Forms.ToolStripMenuItem btnBitacora;
+        private System.Windows.Forms.ToolStripMenuItem btnAsiginaciónDePerfilesAUsuarios;
     }
 }

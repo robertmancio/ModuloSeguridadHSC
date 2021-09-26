@@ -177,6 +177,16 @@ namespace CapaVista
                 funValidarUsuario();
             }
         }
+
+        private void lkbRecuperarContraseña_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            funLimpiar();
+            this.Hide();
+            var form2 = new frmRecuperarContraseña();
+            form2.Closed += (s, args) => this.Close();
+            form2.Show();
+
+        }
     }
 
 }

@@ -10,7 +10,7 @@ namespace CapaModelo
     public class Sentencias
     {
 
-      
+
         Conexion cn = new Conexion();
         OdbcCommand Comm;
         //frmLogin
@@ -116,6 +116,176 @@ namespace CapaModelo
 
 
         }
+
+        //frmPerfiles
+
+        public OdbcDataAdapter PerfilllenarTbl(string tabla2)// metodo  que obtinene el contenido de una tabla
+        {
+            //string para almacenar los campos de OBTENERCAMPOS y utilizar el 1ro
+            string sql = "SELECT pkid, nombre FROM " + tabla2 + "  ;";
+            OdbcDataAdapter dataTable = new OdbcDataAdapter(sql, cn.conexion());
+            return dataTable;
+        }
+
+        public OdbcDataAdapter PerfilllenarTblPersonal(string tabla2, string condicion)// metodo  que obtinene el contenido de una tabla
+        {
+            //string para almacenar los campos de OBTENERCAMPOS y utilizar el 1ro
+            string sql = "SELECT perfil.pkid, perfil.nombre FROM " + tabla2 + "  LEFT JOIN usuarioperfil ON perfil.pkid = usuarioperfil.fkidperfil LEFT JOIN usuario ON usuarioperfil.fkidusuario = usuario.pkid WHERE usuario.pkid = " + condicion + " ORDER BY perfil.pkid;";
+            OdbcDataAdapter dataTable = new OdbcDataAdapter(sql, cn.conexion());
+            return dataTable;
+        }
+
+        public OdbcDataAdapter PerfilllenarNombre(string tabla, string condicion)// metodo  que obtinene el contenido
+        {
+            //string para almacenar los campos de OBTENERCAMPOS y utilizar el 1ro
+            string sql = "SELECT nombre FROM " + tabla + " WHERE pkid = " + condicion + "  ;";
+            OdbcDataAdapter dataName = new OdbcDataAdapter(sql, cn.conexion());
+            return dataName;
+        }
+
+        public void Perfilagregar(string tabla3, string valor1, string valor2)
+        {
+            string sql = "INSERT INTO " + tabla3 + " (fkidUsuario, fkidPerfil) Values( '" + valor1 + "', '" + valor2 + "');";
+            OdbcCommand consulta = new OdbcCommand(sql, cn.conexion());
+            consulta.ExecuteNonQuery();
+        }
+
+        public void Perfileliminar(string tabla3, string valor1, string valor2)
+        {
+            string sql = "DELETE FROM " + tabla3 + " WHERE fkidUsuario = '" + valor1 + "' AND  fkidperfil='" + valor2 + "';";
+            OdbcCommand consulta = new OdbcCommand(sql, cn.conexion());
+            consulta.ExecuteNonQuery();
+        }
+
+        public void Perfileliminartodo(string tabla3, string valor1)
+        {
+            string sql = "DELETE FROM " + tabla3 + " WHERE fkidUsuario = '" + valor1 + "';";
+            OdbcCommand consulta = new OdbcCommand(sql, cn.conexion());
+            consulta.ExecuteNonQuery();
+        }
+
+        public void Perfilagregartodo(string tabla3, string valor1, string valor2, string tabla2)
+        {
+            string sql = "INSERT INTO usuarioperfil (fkidUsuario, fkidPerfil) SELECT NULL, pkid FROM perfil;";
+            OdbcCommand consulta = new OdbcCommand(sql, cn.conexion());
+            consulta.ExecuteNonQuery();
+
+            string sql2 = "UPDATE usuarioperfil SET " + tabla3 + " = '" + valor1 + "' WHERE fkidUsuario = '';";
+            OdbcCommand consulta2 = new OdbcCommand(sql2, cn.conexion());
+            consulta2.ExecuteNonQuery();
+        }
+
+        //frmAplicaciones
+        public OdbcDataAdapter aplicacionllenarTbl(string tabla2)// metodo  que obtinene el contenido de una tabla
+        {
+            //string para almacenar los campos de OBTENERCAMPOS y utilizar el 1ro
+            string sql = "SELECT pkid, nombre FROM " + tabla2 + "  ;";
+            OdbcDataAdapter dataTable = new OdbcDataAdapter(sql, cn.conexion());
+            return dataTable;
+        }
+
+        public OdbcDataAdapter aplicacionllenarTblPerfil(string tabla4)// metodo  que obtinene el contenido de una tabla
+        {
+            //string para almacenar los campos de OBTENERCAMPOS y utilizar el 1ro
+            string sql = "SELECT pkid, nombre FROM " + tabla4 + "  ;";
+            OdbcDataAdapter dataTable = new OdbcDataAdapter(sql, cn.conexion());
+            return dataTable;
+        }
+
+        public OdbcDataAdapter aplicacionllenarTblPersonal(string tabla2, string condicion)// metodo  que obtinene el contenido de una tabla
+        {
+            //string para almacenar los campos de OBTENERCAMPOS y utilizar el 1ro
+            string sql = "SELECT aplicacion.pkid, aplicacion.nombre FROM " + tabla2 + "  LEFT JOIN UsuarioAplicacionAsignados ON aplicacion.pkid = UsuarioAplicacionAsignados.fkidaplicacion LEFT JOIN usuario ON UsuarioAplicacionAsignados.fkidusuario = usuario.pkid WHERE usuario.pkid = " + condicion + " ORDER BY aplicacion.pkid;";
+            OdbcDataAdapter dataTable = new OdbcDataAdapter(sql, cn.conexion());
+            return dataTable;
+        }
+
+        public OdbcDataAdapter aplicacionllenarNombre(string tabla, string condicion)// metodo  que obtinene el contenido
+        {
+            //string para almacenar los campos de OBTENERCAMPOS y utilizar el 1ro
+            string sql = "SELECT nombre FROM " + tabla + " WHERE pkid = " + condicion + "  ;";
+            OdbcDataAdapter dataName = new OdbcDataAdapter(sql, cn.conexion());
+            return dataName;
+        }
+
+        public void aplicacionagregar(string tabla3, string valor1, string valor2)
+        {
+            string sql = "INSERT INTO " + tabla3 + " (fkidUsuario, fkidaplicacion) Values( '" + valor1 + "', '" + valor2 + "');";
+            OdbcCommand consulta = new OdbcCommand(sql, cn.conexion());
+            consulta.ExecuteNonQuery();
+        }
+
+        public void aplicacioneliminar(string tabla3, string valor1, string valor2)
+        {
+            string sql = "DELETE FROM " + tabla3 + " WHERE fkidUsuario = '" + valor1 + "' AND  fkidaplicacion='" + valor2 + "';";
+            OdbcCommand consulta = new OdbcCommand(sql, cn.conexion());
+            consulta.ExecuteNonQuery();
+        }
+
+        public void aplicacioneliminartodo(string tabla3, string valor1)
+        {
+            string sql = "DELETE FROM " + tabla3 + " WHERE fkidUsuario = '" + valor1 + "';";
+            OdbcCommand consulta = new OdbcCommand(sql, cn.conexion());
+            consulta.ExecuteNonQuery();
+        }
+
+        public void aplicacionagregartodo(string tabla3, string valor1, string valor2, string tabla2)
+        {
+            string sql = "INSERT INTO UsuarioAplicacionAsignados (fkidUsuario, fkidaplicacion) SELECT NULL, pkid FROM aplicacion;";
+            OdbcCommand consulta = new OdbcCommand(sql, cn.conexion());
+            consulta.ExecuteNonQuery();
+
+            string sql2 = "UPDATE UsuarioAplicacionAsignados SET " + tabla3 + " = '" + valor1 + "' WHERE fkidUsuario = '';";
+            OdbcCommand consulta2 = new OdbcCommand(sql2, cn.conexion());
+            consulta2.ExecuteNonQuery();
+        }
+
+        //frmRecuperarContraseña
+        public OdbcDataReader funcModificarContraseña(string Consulta)
+        {
+            try
+            {
+                Comm = new OdbcCommand(Consulta, cn.conexion());
+                OdbcDataReader mostrar = Comm.ExecuteReader();
+                return mostrar;
+            }
+            catch (Exception Error)
+            {
+                Console.WriteLine("Error en modelo-modificar ", Error);
+                return null;
+            }
+        }
+        public void funRecuperar(string Usuario, string Contraseña)
+        {
+            try
+            {
+                string cadena = "UPDATE" +
+                " `componenteseguridad`.`Usuario` SET contraseña=" + Contraseña + "WHERE nombre=" + Usuario + "';";
+
+                OdbcCommand consulta = new OdbcCommand(cadena, cn.conexion());
+                consulta.ExecuteNonQuery();
+            }
+            catch (Exception Error)
+            {
+                Console.WriteLine("Error en modelo-modificar ", Error);
+            }
+        }
+
+        public OdbcDataReader llenarcbxUsuario(string sql)
+        {
+            try
+            {
+                OdbcCommand datos = new OdbcCommand(sql, cn.conexion());
+                OdbcDataReader leer = datos.ExecuteReader();
+                return leer;
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+                return null;
+            }
+        }
+        
 
     }
 }
