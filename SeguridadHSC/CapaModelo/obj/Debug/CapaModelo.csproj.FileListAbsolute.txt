@@ -10,3 +10,9 @@ C:\Users\SEBAS\Desktop\ProyectoHCS\SeguridadHSC\CapaModelo\obj\Debug\CapaModelo.
 C:\Users\SEBAS\Desktop\ProyectoHCS\SeguridadHSC\CapaModelo\obj\Debug\CapaModelo.csproj.CoreCompileInputs.cache
 C:\Users\SEBAS\Desktop\ProyectoHCS\SeguridadHSC\CapaModelo\obj\Debug\CapaModelo.dll
 C:\Users\SEBAS\Desktop\ProyectoHCS\SeguridadHSC\CapaModelo\obj\Debug\CapaModelo.pdb
+C:\Users\USUARIO 1\Downloads\hsc\ModuloSeguridadHSC\SeguridadHSC\CapaModelo\bin\Debug\CapaModelo.dll
+C:\Users\USUARIO 1\Downloads\hsc\ModuloSeguridadHSC\SeguridadHSC\CapaModelo\bin\Debug\CapaModelo.pdb
+C:\Users\USUARIO 1\Downloads\hsc\ModuloSeguridadHSC\SeguridadHSC\CapaModelo\obj\Debug\CapaModelo.csproj.AssemblyReference.cache
+C:\Users\USUARIO 1\Downloads\hsc\ModuloSeguridadHSC\SeguridadHSC\CapaModelo\obj\Debug\CapaModelo.csproj.CoreCompileInputs.cache
+C:\Users\USUARIO 1\Downloads\hsc\ModuloSeguridadHSC\SeguridadHSC\CapaModelo\obj\Debug\CapaModelo.dll
+C:\Users\USUARIO 1\Downloads\hsc\ModuloSeguridadHSC\SeguridadHSC\CapaModelo\obj\Debug\CapaModelo.pdb
