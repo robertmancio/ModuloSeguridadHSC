@@ -16,3 +16,9 @@ C:\Users\USUARIO 1\Downloads\hsc\ModuloSeguridadHSC\SeguridadHSC\CapaModelo\obj\
 C:\Users\USUARIO 1\Downloads\hsc\ModuloSeguridadHSC\SeguridadHSC\CapaModelo\obj\Debug\CapaModelo.csproj.CoreCompileInputs.cache
 C:\Users\USUARIO 1\Downloads\hsc\ModuloSeguridadHSC\SeguridadHSC\CapaModelo\obj\Debug\CapaModelo.dll
 C:\Users\USUARIO 1\Downloads\hsc\ModuloSeguridadHSC\SeguridadHSC\CapaModelo\obj\Debug\CapaModelo.pdb
+C:\Users\kievk\OneDrive\Desktop\git\ModuloSeguridadHSC\SeguridadHSC\CapaModelo\bin\Debug\CapaModelo.dll
+C:\Users\kievk\OneDrive\Desktop\git\ModuloSeguridadHSC\SeguridadHSC\CapaModelo\bin\Debug\CapaModelo.pdb
+C:\Users\kievk\OneDrive\Desktop\git\ModuloSeguridadHSC\SeguridadHSC\CapaModelo\obj\Debug\CapaModelo.csproj.AssemblyReference.cache
+C:\Users\kievk\OneDrive\Desktop\git\ModuloSeguridadHSC\SeguridadHSC\CapaModelo\obj\Debug\CapaModelo.csproj.CoreCompileInputs.cache
+C:\Users\kievk\OneDrive\Desktop\git\ModuloSeguridadHSC\SeguridadHSC\CapaModelo\obj\Debug\CapaModelo.dll
+C:\Users\kievk\OneDrive\Desktop\git\ModuloSeguridadHSC\SeguridadHSC\CapaModelo\obj\Debug\CapaModelo.pdb
